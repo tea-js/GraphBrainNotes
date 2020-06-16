@@ -1,0 +1,26 @@
+{
+  "name": "graph-brain-node",
+  "version": "1.0.0",
+  "main": "./lib/index.js",
+  "repository": "git@github.com:tea-js/GraphBrainNotes.git",
+  "license": "MIT",
+  "scripts": {
+    "build": "npx tsc",
+    "build:watch": "npx tsc --watch",
+    "start": "electron ."
+  },
+  "prettier": {
+    "tabWidth": 2,
+    "semi": false,
+    "singleQuote": true,
+    "printWidth": 120
+  },
+  "dependencies": {
+    "electron": "^9.0.4",
+    "debug": "^4.1.1"
+  },
+  "devDependencies": {
+    "typescript": "^3.9.5",
+    "@types/debug": "^4.1.5"
+  }
+}
