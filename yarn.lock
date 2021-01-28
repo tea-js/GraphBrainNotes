@@ -30,6 +30,11 @@
   dependencies:
     defer-to-connect "^1.0.1"
 
+"@types/debug@^4.1.5":
+  version "4.1.5"
+  resolved "https://registry.yarnpkg.com/@types/debug/-/debug-4.1.5.tgz#b14efa8852b7768d898906613c23f688713e02cd"
+  integrity sha512-Q1y515GcOdTHgagaVFhHnIFQ38ygs/kmxdNpvpou+raI9UO3YZcHDngBSYKQklcKlvA7iuQlmIKbzvmxcOE9CQ==
+
 "@types/node@^12.0.12":
   version "12.12.47"
   resolved "https://registry.npm.taobao.org/@types/node/download/@types/node-12.12.47.tgz?cache=0&sync_timestamp=1591737208274&other_urls=https%3A%2F%2Fregistry.npm.taobao.org%2F%40types%2Fnode%2Fdownload%2F%40types%2Fnode-12.12.47.tgz#5007b8866a2f9150de82335ca7e24dd1d59bdfb5"
@@ -141,10 +146,10 @@ duplexer3@^0.1.4:
   resolved "https://registry.npm.taobao.org/duplexer3/download/duplexer3-0.1.4.tgz#ee01dd1cac0ed3cbc7fdbea37dc0a8f1ce002ce2"
   integrity sha1-7gHdHKwO08vH/b6jfcCo8c4ALOI=
 
-electron@^9.0.4:
-  version "9.0.4"
-  resolved "https://registry.npm.taobao.org/electron/download/electron-9.0.4.tgz#5aa72c1576c82c19f6e087311ffe1d7b74358d25"
-  integrity sha1-WqcsFXbILBn24IcxH/4de3Q1jSU=
+electron@^9.4.0:
+  version "9.4.0"
+  resolved "https://registry.yarnpkg.com/electron/-/electron-9.4.0.tgz#c3c607e3598226ddbaaff8babcdffa8bb2210936"
+  integrity sha512-hOC4q0jkb+UDYZRy8vrZ1IANnq+jznZnbkD62OEo06nU+hIbp2IrwDRBNuSLmQ3cwZMVir0WSIA1qEVK0PkzGA==
   dependencies:
     "@electron/get" "^1.0.1"
     "@types/node" "^12.0.12"
